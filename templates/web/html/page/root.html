@@ -84,25 +84,6 @@
 
         <article>
             <details open>
-                <summary>Transaction Output Lookup</summary>
-                <form action="/rqs" method="get">
-                    <input type="hidden" name="_ig" value="l" />
-                    <span class="tooltip">ⓘ
-                        <span class="tooltiptext">
-                            Track a transaction output by its addition record: the 80-character hexadecimal
-                            canonical commitment of the output. Reports whether it is not known, in the mempool,
-                            or mined into a canonical block.
-                        </span>
-                    </span>
-                    Addition record (hex):
-                    <input type="text" size="80" name="output" class="mono" />
-                    <input type="submit" name="l" value="Track Output" />
-                </form>
-            </details>
-        </article>
-
-        <article>
-            <details open>
                 <summary>Announcement Lookup</summary>
                 <form action="/rqs" method="get">
                     <input type="hidden" name="announcement" value="" />
